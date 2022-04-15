@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Contacts</string>
+    <string name="save">Save</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_surname">Surname</string>
 </resources>
