@@ -12,7 +12,6 @@ class MainActivity : AppCompatActivity(), FragmentNavigator {
             val fragment = ContactsListFragment.newInstance()
 
             replace(R.id.frame_layout, fragment, ContactsListFragment.FRAGMENT_CONTACTS_LIST_TAG)
-            addToBackStack(ContactsListFragment.FRAGMENT_CONTACTS_LIST_TAG)
 
             commit()
         }
